@@ -14,38 +14,6 @@ In this repository, I demonstrated practical implementation of:
 - **Logic Building**: Input validation, Loops, and Control Flow (Menu Systems).
 
 ---
-
-## 📂 Project List
-
-Here is the breakdown of the source codes included in this repository:
-
-### 1. Basic Class & Logic (`01_basic_class.cpp`)
-* **Description**: A simple introduction to defining classes and creating objects.
-* **Key Learning**: Syntax structure, Attributes, and Methods.
-
-### 2. Secure ATM System (`02_encapsulation_atm.cpp`)
-* **Description**: A simulation of a Bank ATM where `saldo` (balance) is protected.
-* **Features**: Check Balance, Deposit, and Withdraw with validation logic.
-* **Key Learning**: **Encapsulation**. Using Getter/Setter methods to protect sensitive data from direct access.
-
-### 3. Tamagotchi / Virtual Pet (`03_logic_tamagotchi.cpp`)
-* **Description**: An interactive pet simulator. The pet has states (Hunger, Energy, Happiness) that change based on user interaction.
-* **Features**: Feeding, Playing, Sleeping, and complex status validation (clamping values between 0-100).
-* **Key Learning**: Game Logic implementation within Class Methods.
-
-### 4. Corporate Payroll System (`04_inheritance_payroll.cpp`)
-* **Description**: An employee salary calculation system for PT. Maju Mundur.
-* **Features**: Calculates salary based on roles (**Manager** vs **Sales**) using a base `Karyawan` class.
-* **Key Learning**: **Inheritance**. Using `protected` access modifier and Constructor Chaining (passing data from Child to Parent constructor).
-
-### 5. Smart Home & Cinema System (`05_polymorphism_final.cpp`)
-* **Description**: The final project simulating a Cinema Ticketing System (Regular vs Premiere) and Smart Home Devices.
-* **Features**: 
-    - Inputting multiple orders into a shopping cart.
-    - Printing different ticket types using a single command.
-    - Menu looping (`do-while`).
-* **Key Learning**: **Polymorphism**. Using `virtual` functions, `override`, and **Array of Pointers** to manage different objects uniformly.
-
 ---
 
 ## 🛠️ How to Run
